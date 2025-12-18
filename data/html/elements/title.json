@@ -1,4 +1,12 @@
 {
-  "Element": "title",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/semantics.htmlthe-title-element"
+  "html": {
+    "elements": {
+      "title": {
+        "__compat": {
+          "desc": "Document title",
+          "spec_url": "https://html.spec.whatwg.org/multipage/semantics.htmlthe-title-element"
+        }
+      }
+    }
+  }
 }

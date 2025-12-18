@@ -1,4 +1,12 @@
 {
-  "Element": "input\n[number]",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#number-state-typenumber"
+  "html": {
+    "elements": {
+      "input\n[number]": {
+        "__compat": {
+          "desc": "Spin box control",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#number-state-typenumber"
+        }
+      }
+    }
+  }
 }

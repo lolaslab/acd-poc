@@ -1,4 +1,12 @@
 {
-  "Element": "fieldset",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#the-fieldset-element"
+  "html": {
+    "elements": {
+      "fieldset": {
+        "__compat": {
+          "desc": "Group of form controls",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-fieldset-element"
+        }
+      }
+    }
+  }
 }

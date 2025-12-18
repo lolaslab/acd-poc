@@ -1,4 +1,12 @@
 {
-  "Element": "hr",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-hr-element"
+  "html": {
+    "elements": {
+      "hr": {
+        "__compat": {
+          "desc": "Thematic break",
+          "spec_url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-hr-element"
+        }
+      }
+    }
+  }
 }

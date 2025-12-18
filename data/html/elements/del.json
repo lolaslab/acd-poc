@@ -1,4 +1,12 @@
 {
-  "Element": "del",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/edits.html#the-del-element"
+  "html": {
+    "elements": {
+      "del": {
+        "__compat": {
+          "desc": "A removal from the document",
+          "spec_url": "https://html.spec.whatwg.org/multipage/edits.html#the-del-element"
+        }
+      }
+    }
+  }
 }

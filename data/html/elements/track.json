@@ -1,4 +1,12 @@
 {
-  "Element": "track",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/media.html#the-track-element"
+  "html": {
+    "elements": {
+      "track": {
+        "__compat": {
+          "desc": "Timed text track",
+          "spec_url": "https://html.spec.whatwg.org/multipage/media.html#the-track-element"
+        }
+      }
+    }
+  }
 }

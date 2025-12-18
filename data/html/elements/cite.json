@@ -1,4 +1,12 @@
 {
-  "Element": "cite",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-cite-element"
+  "html": {
+    "elements": {
+      "cite": {
+        "__compat": {
+          "desc": "Reference to a creative work",
+          "spec_url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-cite-element"
+        }
+      }
+    }
+  }
 }

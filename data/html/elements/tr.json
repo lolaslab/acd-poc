@@ -1,4 +1,12 @@
 {
-  "Element": "tr",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/tables.html#the-tr-element"
+  "html": {
+    "elements": {
+      "tr": {
+        "__compat": {
+          "desc": "Data table row",
+          "spec_url": "https://html.spec.whatwg.org/multipage/tables.html#the-tr-element"
+        }
+      }
+    }
+  }
 }

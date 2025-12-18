@@ -1,4 +1,12 @@
 {
-  "Element": "footer",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/sections.html#the-footer-element"
+  "html": {
+    "elements": {
+      "footer": {
+        "__compat": {
+          "desc": "Footer for a page or section",
+          "spec_url": "https://html.spec.whatwg.org/multipage/sections.html#the-footer-element"
+        }
+      }
+    }
+  }
 }

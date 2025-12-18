@@ -1,4 +1,12 @@
 {
-  "Element": "input\n[radio]",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#radio-button-state-typeradio"
+  "html": {
+    "elements": {
+      "input\n[radio]": {
+        "__compat": {
+          "desc": "single choice from a set of options",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#radio-button-state-typeradio"
+        }
+      }
+    }
+  }
 }

@@ -1,4 +1,12 @@
 {
-  "Element": "template",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/scripting.html#the-template-element"
+  "html": {
+    "elements": {
+      "template": {
+        "__compat": {
+          "desc": "Template",
+          "spec_url": "https://html.spec.whatwg.org/multipage/scripting.html#the-template-element"
+        }
+      }
+    }
+  }
 }

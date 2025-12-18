@@ -1,4 +1,12 @@
 {
-  "Element": "meter",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#the-meter-element"
+  "html": {
+    "elements": {
+      "meter": {
+        "__compat": {
+          "desc": "Gauge",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-meter-element"
+        }
+      }
+    }
+  }
 }

@@ -1,4 +1,12 @@
 {
-  "Element": "style",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/semantics.htmlthe-style-element"
+  "html": {
+    "elements": {
+      "style": {
+        "__compat": {
+          "desc": "Embedded styling information",
+          "spec_url": "https://html.spec.whatwg.org/multipage/semantics.htmlthe-style-element"
+        }
+      }
+    }
+  }
 }

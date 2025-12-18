@@ -1,4 +1,12 @@
 {
-  "Element": "div",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-div-element"
+  "html": {
+    "elements": {
+      "div": {
+        "__compat": {
+          "desc": "Generic flow container",
+          "spec_url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-div-element"
+        }
+      }
+    }
+  }
 }

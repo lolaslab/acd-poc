@@ -1,4 +1,12 @@
 {
-  "Element": "rb",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-rb-element"
+  "html": {
+    "elements": {
+      "rb": {
+        "__compat": {
+          "desc": "",
+          "spec_url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-rb-element"
+        }
+      }
+    }
+  }
 }

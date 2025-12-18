@@ -1,4 +1,12 @@
 {
-  "Element": "input\n[url]",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#url-state-typeurl"
+  "html": {
+    "elements": {
+      "input\n[url]": {
+        "__compat": {
+          "desc": "Text control for inputting a URL",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#url-state-typeurl"
+        }
+      }
+    }
+  }
 }

@@ -1,4 +1,12 @@
 {
-  "Element": "wbr",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-wbr-element"
+  "html": {
+    "elements": {
+      "wbr": {
+        "__compat": {
+          "desc": "Line breaking opportunity",
+          "spec_url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-wbr-element"
+        }
+      }
+    }
+  }
 }

@@ -1,4 +1,12 @@
 {
-  "Element": "body",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/sections.html#the-body-element"
+  "html": {
+    "elements": {
+      "body": {
+        "__compat": {
+          "desc": "Document body",
+          "spec_url": "https://html.spec.whatwg.org/multipage/sections.html#the-body-element"
+        }
+      }
+    }
+  }
 }

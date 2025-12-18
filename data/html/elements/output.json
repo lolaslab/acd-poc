@@ -1,4 +1,12 @@
 {
-  "Element": "output",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#the-output-element"
+  "html": {
+    "elements": {
+      "output": {
+        "__compat": {
+          "desc": "Calculated output value",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-output-element"
+        }
+      }
+    }
+  }
 }

@@ -1,4 +1,12 @@
 {
-  "Element": "noscript",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#"
+  "html": {
+    "elements": {
+      "noscript": {
+        "__compat": {
+          "desc": "Fallback content for script",
+          "spec_url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#"
+        }
+      }
+    }
+  }
 }

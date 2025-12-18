@@ -1,4 +1,12 @@
 {
-  "Element": "progress",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#the-progress-element"
+  "html": {
+    "elements": {
+      "progress": {
+        "__compat": {
+          "desc": "Progress bar",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-progress-element"
+        }
+      }
+    }
+  }
 }

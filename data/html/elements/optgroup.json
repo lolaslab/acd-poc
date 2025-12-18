@@ -1,4 +1,12 @@
 {
-  "Element": "optgroup",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#the-optgroup-element"
+  "html": {
+    "elements": {
+      "optgroup": {
+        "__compat": {
+          "desc": "Group of options in a list box",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-optgroup-element"
+        }
+      }
+    }
+  }
 }

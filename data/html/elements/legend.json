@@ -1,4 +1,12 @@
 {
-  "Element": "legend",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#the-legend-element"
+  "html": {
+    "elements": {
+      "legend": {
+        "__compat": {
+          "desc": "Caption for fieldset",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-legend-element"
+        }
+      }
+    }
+  }
 }

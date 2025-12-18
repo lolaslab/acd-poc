@@ -1,4 +1,12 @@
 {
-  "Element": "li",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-li-element"
+  "html": {
+    "elements": {
+      "li": {
+        "__compat": {
+          "desc": "List item",
+          "spec_url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-li-element"
+        }
+      }
+    }
+  }
 }

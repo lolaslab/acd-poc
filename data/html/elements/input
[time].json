@@ -1,4 +1,12 @@
 {
-  "Element": "input\n[time]",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#time-state-typetime"
+  "html": {
+    "elements": {
+      "input\n[time]": {
+        "__compat": {
+          "desc": "Control for setting a specific time.",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#time-state-typetime"
+        }
+      }
+    }
+  }
 }

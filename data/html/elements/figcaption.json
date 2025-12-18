@@ -1,4 +1,12 @@
 {
-  "Element": "figcaption",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-figcaption-element"
+  "html": {
+    "elements": {
+      "figcaption": {
+        "__compat": {
+          "desc": "Caption for figure",
+          "spec_url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-figcaption-element"
+        }
+      }
+    }
+  }
 }

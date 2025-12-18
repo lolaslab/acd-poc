@@ -1,4 +1,12 @@
 {
-  "Element": "address",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-address-element"
+  "html": {
+    "elements": {
+      "address": {
+        "__compat": {
+          "desc": "Contact information for a page or article element",
+          "spec_url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-address-element"
+        }
+      }
+    }
+  }
 }

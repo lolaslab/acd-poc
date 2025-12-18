@@ -1,4 +1,12 @@
 {
-  "Element": "input\n[tel]",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#telephone-state-typetel"
+  "html": {
+    "elements": {
+      "input\n[tel]": {
+        "__compat": {
+          "desc": "text box control for inputting a phone number",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#telephone-state-typetel"
+        }
+      }
+    }
+  }
 }

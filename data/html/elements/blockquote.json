@@ -1,4 +1,12 @@
 {
-  "Element": "blockquote",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-blockquote-element"
+  "html": {
+    "elements": {
+      "blockquote": {
+        "__compat": {
+          "desc": "A section quoted from another source",
+          "spec_url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-blockquote-element"
+        }
+      }
+    }
+  }
 }

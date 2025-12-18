@@ -1,4 +1,12 @@
 {
-  "Element": "p",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-p-element"
+  "html": {
+    "elements": {
+      "p": {
+        "__compat": {
+          "desc": "Paragraph",
+          "spec_url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-p-element"
+        }
+      }
+    }
+  }
 }

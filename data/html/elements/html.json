@@ -1,4 +1,12 @@
 {
-  "Element": "html",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/semantics.html#the-html-element"
+  "html": {
+    "elements": {
+      "html": {
+        "__compat": {
+          "desc": "Root element",
+          "spec_url": "https://html.spec.whatwg.org/multipage/semantics.html#the-html-element"
+        }
+      }
+    }
+  }
 }

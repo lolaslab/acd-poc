@@ -1,4 +1,12 @@
 {
-  "Element": "canvas",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/canvas.html#the-canvas-element"
+  "html": {
+    "elements": {
+      "canvas": {
+        "__compat": {
+          "desc": "Scriptable bitmap canvas",
+          "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#the-canvas-element"
+        }
+      }
+    }
+  }
 }

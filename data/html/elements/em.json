@@ -1,4 +1,12 @@
 {
-  "Element": "em",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-em-element"
+  "html": {
+    "elements": {
+      "em": {
+        "__compat": {
+          "desc": "Stress emphasis",
+          "spec_url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-em-element"
+        }
+      }
+    }
+  }
 }

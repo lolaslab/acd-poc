@@ -1,4 +1,12 @@
 {
-  "Element": "span",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-span-element"
+  "html": {
+    "elements": {
+      "span": {
+        "__compat": {
+          "desc": "Generic phrasing container",
+          "spec_url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-span-element"
+        }
+      }
+    }
+  }
 }

@@ -1,4 +1,12 @@
 {
-  "Element": "data",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-data-element"
+  "html": {
+    "elements": {
+      "data": {
+        "__compat": {
+          "desc": "Machine-readable equivalent",
+          "spec_url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-data-element"
+        }
+      }
+    }
+  }
 }

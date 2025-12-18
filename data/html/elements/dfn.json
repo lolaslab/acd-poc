@@ -1,4 +1,12 @@
 {
-  "Element": "dfn",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-dfn-element"
+  "html": {
+    "elements": {
+      "dfn": {
+        "__compat": {
+          "desc": "Defining instance of a term",
+          "spec_url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-dfn-element"
+        }
+      }
+    }
+  }
 }

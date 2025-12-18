@@ -1,4 +1,12 @@
 {
-  "Element": "map",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/image-maps.html#the-map-element"
+  "html": {
+    "elements": {
+      "map": {
+        "__compat": {
+          "desc": "Image\nmap",
+          "spec_url": "https://html.spec.whatwg.org/multipage/image-maps.html#the-map-element"
+        }
+      }
+    }
+  }
 }

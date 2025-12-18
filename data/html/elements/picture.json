@@ -1,4 +1,12 @@
 {
-  "Element": "picture",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/embedded-content.html#the-picture-element"
+  "html": {
+    "elements": {
+      "picture": {
+        "__compat": {
+          "desc": "",
+          "spec_url": "https://html.spec.whatwg.org/multipage/embedded-content.html#the-picture-element"
+        }
+      }
+    }
+  }
 }

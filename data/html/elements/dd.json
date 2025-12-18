@@ -1,4 +1,12 @@
 {
-  "Element": "dd",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-dd-element"
+  "html": {
+    "elements": {
+      "dd": {
+        "__compat": {
+          "desc": "Content for corresponding dt element(s)",
+          "spec_url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-dd-element"
+        }
+      }
+    }
+  }
 }

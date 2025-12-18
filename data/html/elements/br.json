@@ -1,4 +1,12 @@
 {
-  "Element": "br",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-br-element"
+  "html": {
+    "elements": {
+      "br": {
+        "__compat": {
+          "desc": "Line break, e.g. in poem or postal address",
+          "spec_url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-br-element"
+        }
+      }
+    }
+  }
 }

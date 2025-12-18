@@ -1,4 +1,12 @@
 {
-  "Element": "var",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-var-element"
+  "html": {
+    "elements": {
+      "var": {
+        "__compat": {
+          "desc": "Variable",
+          "spec_url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-var-element"
+        }
+      }
+    }
+  }
 }

@@ -1,4 +1,12 @@
 {
-  "Element": "caption",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/tables.html#the-caption-element"
+  "html": {
+    "elements": {
+      "caption": {
+        "__compat": {
+          "desc": "Table caption",
+          "spec_url": "https://html.spec.whatwg.org/multipage/tables.html#the-caption-element"
+        }
+      }
+    }
+  }
 }

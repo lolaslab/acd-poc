@@ -1,4 +1,12 @@
 {
-  "Element": "th",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/tables.html#the-th-element"
+  "html": {
+    "elements": {
+      "th": {
+        "__compat": {
+          "desc": "Header cell in a data table",
+          "spec_url": "https://html.spec.whatwg.org/multipage/tables.html#the-th-element"
+        }
+      }
+    }
+  }
 }

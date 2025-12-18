@@ -1,4 +1,12 @@
 {
-  "Element": "q",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-q-element"
+  "html": {
+    "elements": {
+      "q": {
+        "__compat": {
+          "desc": "Quotation",
+          "spec_url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-q-element"
+        }
+      }
+    }
+  }
 }

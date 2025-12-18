@@ -1,4 +1,12 @@
 {
-  "Element": "input\n[email]",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#email-state-typeemail"
+  "html": {
+    "elements": {
+      "input\n[email]": {
+        "__compat": {
+          "desc": "text control for inputting email address",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#email-state-typeemail"
+        }
+      }
+    }
+  }
 }

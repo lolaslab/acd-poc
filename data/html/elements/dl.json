@@ -1,4 +1,12 @@
 {
-  "Element": "dl",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-dl-element"
+  "html": {
+    "elements": {
+      "dl": {
+        "__compat": {
+          "desc": "Association list consisting of zero or more name-value\ngroups",
+          "spec_url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-dl-element"
+        }
+      }
+    }
+  }
 }

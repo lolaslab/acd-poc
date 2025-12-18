@@ -1,4 +1,12 @@
 {
-  "Element": "a",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element"
+  "html": {
+    "elements": {
+      "a": {
+        "__compat": {
+          "desc": "With href: a hyperlink\nWith no href: an\nanchor",
+          "spec_url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element"
+        }
+      }
+    }
+  }
 }

@@ -1,4 +1,12 @@
 {
-  "Element": "tfoot",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/tables.html#the-tfoot-element"
+  "html": {
+    "elements": {
+      "tfoot": {
+        "__compat": {
+          "desc": "Group of footer rows in a data table",
+          "spec_url": "https://html.spec.whatwg.org/multipage/tables.html#the-tfoot-element"
+        }
+      }
+    }
+  }
 }

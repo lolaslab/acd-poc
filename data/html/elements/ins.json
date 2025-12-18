@@ -1,4 +1,12 @@
 {
-  "Element": "ins",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/edits.html#the-ins-element"
+  "html": {
+    "elements": {
+      "ins": {
+        "__compat": {
+          "desc": "An addition to the document",
+          "spec_url": "https://html.spec.whatwg.org/multipage/edits.html#the-ins-element"
+        }
+      }
+    }
+  }
 }

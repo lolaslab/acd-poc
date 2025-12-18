@@ -1,4 +1,12 @@
 {
-  "Element": "time",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-time-element"
+  "html": {
+    "elements": {
+      "time": {
+        "__compat": {
+          "desc": "Machine-readable equivalent of date- or time-related\ndata",
+          "spec_url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-time-element"
+        }
+      }
+    }
+  }
 }

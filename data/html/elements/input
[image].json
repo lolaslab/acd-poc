@@ -1,4 +1,12 @@
 {
-  "Element": "input\n[image]",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#image-button-state-typeimage"
+  "html": {
+    "elements": {
+      "input\n[image]": {
+        "__compat": {
+          "desc": "Button control",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#image-button-state-typeimage"
+        }
+      }
+    }
+  }
 }

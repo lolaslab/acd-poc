@@ -1,4 +1,12 @@
 {
-  "Element": "h1\n- h6",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/sections.html#the-h1-h2-h3-h4-h5-and-h6-elements"
+  "html": {
+    "elements": {
+      "h1\n- h6": {
+        "__compat": {
+          "desc": "Section heading",
+          "spec_url": "https://html.spec.whatwg.org/multipage/sections.html#the-h1-h2-h3-h4-h5-and-h6-elements"
+        }
+      }
+    }
+  }
 }

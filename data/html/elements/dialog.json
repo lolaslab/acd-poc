@@ -1,4 +1,12 @@
 {
-  "Element": "dialog",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/interactive-elements.html#the-dialog-element"
+  "html": {
+    "elements": {
+      "dialog": {
+        "__compat": {
+          "desc": "The dialog element represents a transitory part of an application, in the form of a small window (\"dialog box\")",
+          "spec_url": "https://html.spec.whatwg.org/multipage/interactive-elements.html#the-dialog-element"
+        }
+      }
+    }
+  }
 }

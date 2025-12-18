@@ -1,4 +1,12 @@
 {
-  "Element": "input\n[button]",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#button-state-typebutton"
+  "html": {
+    "elements": {
+      "input\n[button]": {
+        "__compat": {
+          "desc": "Button control",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#button-state-typebutton"
+        }
+      }
+    }
+  }
 }

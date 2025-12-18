@@ -13,15 +13,27 @@ elements = JSON.parse(json_string)
 keys = [
   "Element",
   "Element link 1",
+  "Represents"
 ]
 
 elements.each do |elem_obj|
   elem_obj.delete_if do |k, v|
     !keys.any?(k)
   end
-end
-
-elements.each do |elem_obj|
   filename = "data/html/elements/#{elem_obj["Element"]}.json"
-  File.write(filename, JSON.pretty_generate(elem_obj))
+
+  updated_json = {
+    "html" => {
+      "elements" => {
+        elem_obj["Element"] => {
+          "__compat" => {
+            "desc" => elem_obj["Represents"],
+            "spec_url" => elem_obj["Element link 1"]
+          }
+        }
+      }
+    }
+  }
+
+  File.write(filename, JSON.pretty_generate(updated_json))
 end

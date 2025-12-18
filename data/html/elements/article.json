@@ -1,4 +1,12 @@
 {
-  "Element": "article",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/sections.html#the-article-element"
+  "html": {
+    "elements": {
+      "article": {
+        "__compat": {
+          "desc": "Self-contained syndicatable or reusable composition",
+          "spec_url": "https://html.spec.whatwg.org/multipage/sections.html#the-article-element"
+        }
+      }
+    }
+  }
 }

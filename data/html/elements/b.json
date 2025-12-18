@@ -1,4 +1,12 @@
 {
-  "Element": "b",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-b-element"
+  "html": {
+    "elements": {
+      "b": {
+        "__compat": {
+          "desc": "Keywords",
+          "spec_url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-b-element"
+        }
+      }
+    }
+  }
 }

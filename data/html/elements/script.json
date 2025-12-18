@@ -1,4 +1,12 @@
 {
-  "Element": "script",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/scripting.html#the-script-element"
+  "html": {
+    "elements": {
+      "script": {
+        "__compat": {
+          "desc": "Embedded script",
+          "spec_url": "https://html.spec.whatwg.org/multipage/scripting.html#the-script-element"
+        }
+      }
+    }
+  }
 }

@@ -1,4 +1,12 @@
 {
-  "Element": "param (obsolete)",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/obsolete.html#the-param-element"
+  "html": {
+    "elements": {
+      "param (obsolete)": {
+        "__compat": {
+          "desc": "Parameter for object",
+          "spec_url": "https://html.spec.whatwg.org/multipage/obsolete.html#the-param-element"
+        }
+      }
+    }
+  }
 }

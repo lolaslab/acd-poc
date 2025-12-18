@@ -1,4 +1,12 @@
 {
-  "Element": "input\n[checkbox]",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#checkbox-state-typecheckbox"
+  "html": {
+    "elements": {
+      "input\n[checkbox]": {
+        "__compat": {
+          "desc": "Checkbox control",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#checkbox-state-typecheckbox"
+        }
+      }
+    }
+  }
 }

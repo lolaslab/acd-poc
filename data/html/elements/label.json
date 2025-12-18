@@ -1,4 +1,12 @@
 {
-  "Element": "label",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#the-label-element"
+  "html": {
+    "elements": {
+      "label": {
+        "__compat": {
+          "desc": "Caption for a form control",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-label-element"
+        }
+      }
+    }
+  }
 }

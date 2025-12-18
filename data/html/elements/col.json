@@ -1,4 +1,12 @@
 {
-  "Element": "col",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/tables.html#the-col-element"
+  "html": {
+    "elements": {
+      "col": {
+        "__compat": {
+          "desc": "Table column",
+          "spec_url": "https://html.spec.whatwg.org/multipage/tables.html#the-col-element"
+        }
+      }
+    }
+  }
 }

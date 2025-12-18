@@ -1,4 +1,12 @@
 {
-  "Element": "datalist",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#the-datalist-element"
+  "html": {
+    "elements": {
+      "datalist": {
+        "__compat": {
+          "desc": "Container for options for combo\nbox control",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-datalist-element"
+        }
+      }
+    }
+  }
 }

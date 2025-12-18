@@ -1,4 +1,12 @@
 {
-  "Element": "table",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/tables.html#the-table-element"
+  "html": {
+    "elements": {
+      "table": {
+        "__compat": {
+          "desc": "Data table",
+          "spec_url": "https://html.spec.whatwg.org/multipage/tables.html#the-table-element"
+        }
+      }
+    }
+  }
 }

@@ -1,4 +1,12 @@
 {
-  "Element": "input\n[reset]",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#reset-button-state-typereset"
+  "html": {
+    "elements": {
+      "input\n[reset]": {
+        "__compat": {
+          "desc": "Button control for resetting a form",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#reset-button-state-typereset"
+        }
+      }
+    }
+  }
 }

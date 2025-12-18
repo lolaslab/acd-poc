@@ -1,4 +1,12 @@
 {
-  "Element": "s",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-s-element"
+  "html": {
+    "elements": {
+      "s": {
+        "__compat": {
+          "desc": "Inaccurate text",
+          "spec_url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-s-element"
+        }
+      }
+    }
+  }
 }

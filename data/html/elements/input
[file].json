@@ -1,4 +1,12 @@
 {
-  "Element": "input\n[file]",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#file-upload-state-typefile"
+  "html": {
+    "elements": {
+      "input\n[file]": {
+        "__compat": {
+          "desc": "File chooser control",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#file-upload-state-typefile"
+        }
+      }
+    }
+  }
 }

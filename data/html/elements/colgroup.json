@@ -1,4 +1,12 @@
 {
-  "Element": "colgroup",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/tables.html#the-colgroup-element"
+  "html": {
+    "elements": {
+      "colgroup": {
+        "__compat": {
+          "desc": "Group of columns in a table",
+          "spec_url": "https://html.spec.whatwg.org/multipage/tables.html#the-colgroup-element"
+        }
+      }
+    }
+  }
 }

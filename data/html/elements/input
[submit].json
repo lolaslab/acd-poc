@@ -1,4 +1,12 @@
 {
-  "Element": "input\n[submit]",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#submit-button-state-typesubmit"
+  "html": {
+    "elements": {
+      "input\n[submit]": {
+        "__compat": {
+          "desc": "Button control for submitting a form",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#submit-button-state-typesubmit"
+        }
+      }
+    }
+  }
 }

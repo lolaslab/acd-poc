@@ -1,4 +1,12 @@
 {
-  "Element": "input\n[date]",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#date-state-typedate"
+  "html": {
+    "elements": {
+      "input\n[date]": {
+        "__compat": {
+          "desc": "date (day/month year) picker control",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#date-state-typedate"
+        }
+      }
+    }
+  }
 }

@@ -1,4 +1,12 @@
 {
-  "Element": "details",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/interactive-elements.html#the-details-element"
+  "html": {
+    "elements": {
+      "details": {
+        "__compat": {
+          "desc": "Disclosure widget container",
+          "spec_url": "https://html.spec.whatwg.org/multipage/interactive-elements.html#the-details-element"
+        }
+      }
+    }
+  }
 }

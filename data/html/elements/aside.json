@@ -1,4 +1,12 @@
 {
-  "Element": "aside",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/sections.html#the-aside-element"
+  "html": {
+    "elements": {
+      "aside": {
+        "__compat": {
+          "desc": "Sidebar for tangentially related content",
+          "spec_url": "https://html.spec.whatwg.org/multipage/sections.html#the-aside-element"
+        }
+      }
+    }
+  }
 }

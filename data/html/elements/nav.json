@@ -1,4 +1,12 @@
 {
-  "Element": "nav",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/sections.html#the-nav-element"
+  "html": {
+    "elements": {
+      "nav": {
+        "__compat": {
+          "desc": "Section with navigational links",
+          "spec_url": "https://html.spec.whatwg.org/multipage/sections.html#the-nav-element"
+        }
+      }
+    }
+  }
 }

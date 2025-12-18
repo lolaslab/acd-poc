@@ -1,4 +1,12 @@
 {
-  "Element": "textarea",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/rendering.html#the-textarea-element-2"
+  "html": {
+    "elements": {
+      "textarea": {
+        "__compat": {
+          "desc": "Multiline text field",
+          "spec_url": "https://html.spec.whatwg.org/multipage/rendering.html#the-textarea-element-2"
+        }
+      }
+    }
+  }
 }

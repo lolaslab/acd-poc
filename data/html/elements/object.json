@@ -1,4 +1,12 @@
 {
-  "Element": "object",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#the-object-element"
+  "html": {
+    "elements": {
+      "object": {
+        "__compat": {
+          "desc": "Image, nested browsing context, or plugin",
+          "spec_url": "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#the-object-element"
+        }
+      }
+    }
+  }
 }

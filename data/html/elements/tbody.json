@@ -1,4 +1,12 @@
 {
-  "Element": "tbody",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/tables.html#the-tbody-element"
+  "html": {
+    "elements": {
+      "tbody": {
+        "__compat": {
+          "desc": "Group of rows in a data table",
+          "spec_url": "https://html.spec.whatwg.org/multipage/tables.html#the-tbody-element"
+        }
+      }
+    }
+  }
 }

@@ -1,4 +1,12 @@
 {
-  "Element": "area",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/image-maps.html#the-area-element"
+  "html": {
+    "elements": {
+      "area": {
+        "__compat": {
+          "desc": "Hyperlink or dead area on an image map",
+          "spec_url": "https://html.spec.whatwg.org/multipage/image-maps.html#the-area-element"
+        }
+      }
+    }
+  }
 }

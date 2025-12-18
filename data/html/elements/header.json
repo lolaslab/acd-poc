@@ -1,4 +1,12 @@
 {
-  "Element": "header",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/sections.html#the-header-element"
+  "html": {
+    "elements": {
+      "header": {
+        "__compat": {
+          "desc": "Introductory or navigational aids for a page or section",
+          "spec_url": "https://html.spec.whatwg.org/multipage/sections.html#the-header-element"
+        }
+      }
+    }
+  }
 }

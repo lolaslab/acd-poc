@@ -1,4 +1,12 @@
 {
-  "Element": "option",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#the-option-element"
+  "html": {
+    "elements": {
+      "option": {
+        "__compat": {
+          "desc": "Option in a list box or combo box control",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-option-element"
+        }
+      }
+    }
+  }
 }

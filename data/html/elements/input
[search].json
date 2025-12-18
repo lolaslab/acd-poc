@@ -1,4 +1,12 @@
 {
-  "Element": "input\n[search]",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#text-typetext-state-and-search-state-typesearch"
+  "html": {
+    "elements": {
+      "input\n[search]": {
+        "__compat": {
+          "desc": "Text control for inputting search terms",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#text-typetext-state-and-search-state-typesearch"
+        }
+      }
+    }
+  }
 }

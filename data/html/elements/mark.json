@@ -1,4 +1,12 @@
 {
-  "Element": "mark",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-mark-element"
+  "html": {
+    "elements": {
+      "mark": {
+        "__compat": {
+          "desc": "Highlight",
+          "spec_url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-mark-element"
+        }
+      }
+    }
+  }
 }

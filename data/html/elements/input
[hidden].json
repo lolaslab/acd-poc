@@ -1,4 +1,12 @@
 {
-  "Element": "input\n[hidden]",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#hidden-state-typehidden"
+  "html": {
+    "elements": {
+      "input\n[hidden]": {
+        "__compat": {
+          "desc": "hidden form control",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#hidden-state-typehidden"
+        }
+      }
+    }
+  }
 }

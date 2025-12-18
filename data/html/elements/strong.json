@@ -1,4 +1,12 @@
 {
-  "Element": "strong",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-strong-element"
+  "html": {
+    "elements": {
+      "strong": {
+        "__compat": {
+          "desc": "Importance",
+          "spec_url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-strong-element"
+        }
+      }
+    }
+  }
 }

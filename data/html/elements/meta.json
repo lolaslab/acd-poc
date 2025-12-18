@@ -1,4 +1,12 @@
 {
-  "Element": "meta",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/semantics.htmlthe-meta-element"
+  "html": {
+    "elements": {
+      "meta": {
+        "__compat": {
+          "desc": "Text metadata",
+          "spec_url": "https://html.spec.whatwg.org/multipage/semantics.htmlthe-meta-element"
+        }
+      }
+    }
+  }
 }

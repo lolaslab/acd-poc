@@ -1,4 +1,12 @@
 {
-  "Element": "input\n[range]",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#range-state-typerange"
+  "html": {
+    "elements": {
+      "input\n[range]": {
+        "__compat": {
+          "desc": "slider control",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#range-state-typerange"
+        }
+      }
+    }
+  }
 }

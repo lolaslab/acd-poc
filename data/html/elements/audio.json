@@ -1,4 +1,12 @@
 {
-  "Element": "audio",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/media.html#the-audio-element"
+  "html": {
+    "elements": {
+      "audio": {
+        "__compat": {
+          "desc": "Audio player",
+          "spec_url": "https://html.spec.whatwg.org/multipage/media.html#the-audio-element"
+        }
+      }
+    }
+  }
 }

@@ -1,4 +1,12 @@
 {
-  "Element": "select",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#the-select-element"
+  "html": {
+    "elements": {
+      "select": {
+        "__compat": {
+          "desc": "List box control",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-select-element"
+        }
+      }
+    }
+  }
 }

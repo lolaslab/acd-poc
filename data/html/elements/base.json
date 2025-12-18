@@ -1,4 +1,12 @@
 {
-  "Element": "base",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/semantics.htmlthe-base-element"
+  "html": {
+    "elements": {
+      "base": {
+        "__compat": {
+          "desc": "Base URL and default target browsing\ncontext for hyperlinks and forms",
+          "spec_url": "https://html.spec.whatwg.org/multipage/semantics.htmlthe-base-element"
+        }
+      }
+    }
+  }
 }

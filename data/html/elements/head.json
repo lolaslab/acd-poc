@@ -1,4 +1,12 @@
 {
-  "Element": "head",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/semantics.htmlthe-head-element"
+  "html": {
+    "elements": {
+      "head": {
+        "__compat": {
+          "desc": "Container for document metadata",
+          "spec_url": "https://html.spec.whatwg.org/multipage/semantics.htmlthe-head-element"
+        }
+      }
+    }
+  }
 }

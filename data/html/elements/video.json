@@ -1,4 +1,12 @@
 {
-  "Element": "video",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/media.html#the-video-element"
+  "html": {
+    "elements": {
+      "video": {
+        "__compat": {
+          "desc": "Video Player",
+          "spec_url": "https://html.spec.whatwg.org/multipage/media.html#the-video-element"
+        }
+      }
+    }
+  }
 }

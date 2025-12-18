@@ -1,4 +1,12 @@
 {
-  "Element": "kbd",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-kbd-element"
+  "html": {
+    "elements": {
+      "kbd": {
+        "__compat": {
+          "desc": "User input",
+          "spec_url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-kbd-element"
+        }
+      }
+    }
+  }
 }

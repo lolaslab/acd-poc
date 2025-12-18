@@ -1,4 +1,12 @@
 {
-  "Element": "button",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#the-button-element"
+  "html": {
+    "elements": {
+      "button": {
+        "__compat": {
+          "desc": "Button control",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-button-element"
+        }
+      }
+    }
+  }
 }

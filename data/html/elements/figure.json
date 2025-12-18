@@ -1,4 +1,12 @@
 {
-  "Element": "figure",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-figure-element"
+  "html": {
+    "elements": {
+      "figure": {
+        "__compat": {
+          "desc": "Figure with optional caption",
+          "spec_url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-figure-element"
+        }
+      }
+    }
+  }
 }

@@ -1,4 +1,12 @@
 {
-  "Element": "ul",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-ul-element"
+  "html": {
+    "elements": {
+      "ul": {
+        "__compat": {
+          "desc": "Unordered List",
+          "spec_url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-ul-element"
+        }
+      }
+    }
+  }
 }

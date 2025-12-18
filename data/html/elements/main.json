@@ -1,4 +1,12 @@
 {
-  "Element": "main",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-main-element"
+  "html": {
+    "elements": {
+      "main": {
+        "__compat": {
+          "desc": "Main content of a document",
+          "spec_url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-main-element"
+        }
+      }
+    }
+  }
 }

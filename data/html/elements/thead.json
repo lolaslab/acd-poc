@@ -1,4 +1,12 @@
 {
-  "Element": "thead",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/tables.html#the-thead-element"
+  "html": {
+    "elements": {
+      "thead": {
+        "__compat": {
+          "desc": "Group of header rows in a data table",
+          "spec_url": "https://html.spec.whatwg.org/multipage/tables.html#the-thead-element"
+        }
+      }
+    }
+  }
 }

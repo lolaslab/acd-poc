@@ -1,4 +1,12 @@
 {
-  "Element": "summary",
-  "Element link 1": "https://html.spec.whatwg.org/multipage/interactive-elements.html#the-summary-element"
+  "html": {
+    "elements": {
+      "summary": {
+        "__compat": {
+          "desc": "disclosure widget control/label",
+          "spec_url": "https://html.spec.whatwg.org/multipage/interactive-elements.html#the-summary-element"
+        }
+      }
+    }
+  }
 }
