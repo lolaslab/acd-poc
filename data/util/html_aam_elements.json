@@ -1,0 +1,890 @@
+[
+  {
+    "Element": "a",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element",
+    "Represents": "With href: a hyperlink\nWith no href: an\nanchor",
+    "Supported": "With href:\n[yes]\nWith no href:\n[none expected]",
+    "Notes": "With href:\nLink role announced before link text when cursored to,\nafter via tab.\nBy Default, JAWS speaks the on screen text of a\nlink, but you can set JAWS to instead speak Title\ntext, assigned by the page author within the HTML\ncode. Title text normally provides supplemental\ninformation about the link.\nBy default, JAWS announces the link type, but you\ncan disable this, so JAWS announces same page links,\nsend mail links, and FTP links as \"link,\" or \"Visited\nLink.\"\nJAWS announces the type of link as follows:\nLink: This indicates a link that\nhas not been visited.\nVisited Link: This indicates a link\nthat has been visited. This is determined by your\nbrowser history, not by which links have been selected\non the current Web page.\nSame Page Link: This indicates a\nlink that moves you to another location on the same\npage.\nSend Mail Link: This indicates a\nlink that opens a new e-mail message using your\ndefault e-mail program.\nFTP Link: This indicates a link\nthat points to a FTP (File Transfer Protocol) server.\nWith no href:\nNo semantics conveyed or expected as <a> has a role=\"generic\""
+  },
+  {
+    "Element": "abbr",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-abbr-element",
+    "Represents": "An abbreviation",
+    "Supported": "By default\n[none expected]\nVia preference\n[yes]",
+    "Notes": "No semantics conveyed by default\nNote that expansions are not announced by default and\nthat expansions provided using the title attribute are not available to keyboard only users.\nRefer to Using\nthe HTML title attribute."
+  },
+  {
+    "Element": "address",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-address-element",
+    "Represents": "Contact information for a page or article element",
+    "Supported": "no accessible name\n[no]\nWith accessible name\n[yes]",
+    "Notes": "With accessible name address is announced\nas a group Group - accessible name,\nstart/end."
+  },
+  {
+    "Element": "area",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/image-maps.html#the-area-element",
+    "Represents": "Hyperlink or dead area on an image map",
+    "Supported": "[yes]",
+    "Notes": "Although area elements are links they are not conveyed\nas links aurally."
+  },
+  {
+    "Element": "aria-level",
+    "Element link 1": "https://www.w3.org/TR/wai-aria-1.3/#aria-level",
+    "Represents": "heading levels greater than 6",
+    "Supported": "[no]",
+    "Notes": "Issue filed: JAWS\ndoes not support aria-level on h1-h6"
+  },
+  {
+    "Element": "article",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/sections.html#the-article-element",
+    "Represents": "Self-contained syndicatable or reusable composition",
+    "Supported": "[yes]",
+    "Notes": "Included as a navigable region < JAWS 2018"
+  },
+  {
+    "Element": "aside",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/sections.html#the-aside-element",
+    "Represents": "Sidebar for tangentially related content",
+    "Supported": "[yes]",
+    "Notes": "Included as a navigable region"
+  },
+  {
+    "Element": "audio",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/media.html#the-audio-element",
+    "Represents": "Audio player",
+    "Supported": "[yes]",
+    "Notes": ""
+  },
+  {
+    "Element": "b",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-b-element",
+    "Represents": "Keywords",
+    "Supported": "[none expected]",
+    "Notes": "Refer to: Scree Readers support for text level HTML semantics"
+  },
+  {
+    "Element": "base",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/semantics.htmlthe-base-element",
+    "Represents": "Base URL and default target browsing\ncontext for hyperlinks and forms",
+    "Supported": "[none expected]",
+    "Notes": "No UI"
+  },
+  {
+    "Element": "bdi",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-bdi-element",
+    "Represents": "Text directionality isolation",
+    "Supported": "[none expected]",
+    "Notes": "No semantics conveyed"
+  },
+  {
+    "Element": "bdo",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-bdo-element",
+    "Represents": "Text directionality formatting",
+    "Supported": "[none expected]",
+    "Notes": "No semantics conveyed"
+  },
+  {
+    "Element": "blockquote",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-blockquote-element",
+    "Represents": "A section quoted from another source",
+    "Supported": "[yes]",
+    "Notes": "Semantics conveyed via navigation and element name\nannouncement."
+  },
+  {
+    "Element": "body",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/sections.html#the-body-element",
+    "Represents": "Document body",
+    "Supported": "[none expected]",
+    "Notes": "No semantics conveyed\nIs included in focus order in most browsers."
+  },
+  {
+    "Element": "br",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-br-element",
+    "Represents": "Line break, e.g. in poem or postal address",
+    "Supported": "[none expected]",
+    "Notes": "Line break"
+  },
+  {
+    "Element": "button",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#the-button-element",
+    "Represents": "Button control",
+    "Supported": "[yes]",
+    "Notes": "Semantics conveyed via navigation and element name\nannouncement"
+  },
+  {
+    "Element": "canvas",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/canvas.html#the-canvas-element",
+    "Represents": "Scriptable bitmap canvas",
+    "Supported": "[yes]",
+    "Notes": "The canvas is 'transparent' for screen reader users.\nHTML content included in the HTML5\ncanvas sub DOM is announced and navigable by screen\nreader users and is navigable by keyboard users. Note: advised to add role=presentation to <canvas> to avoid unecssary repetition of graphic role information."
+  },
+  {
+    "Element": "caption",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/tables.html#the-caption-element",
+    "Represents": "Table caption",
+    "Supported": "[yes]",
+    "Notes": "Announced when a table is navigated to. Used as table\ntitle in the table list (List Tables CTRL+INSERT+T)\ndialog."
+  },
+  {
+    "Element": "cite",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-cite-element",
+    "Represents": "Reference to a creative work",
+    "Supported": "[none expected]",
+    "Notes": "No semantics conveyed or expected as <cite> has a role=\"generic\""
+  },
+  {
+    "Element": "code",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-code-element",
+    "Represents": "Computer code",
+    "Supported": "[none expected]",
+    "Notes": "No semantics conveyed or expected as <code> currently has a role=\"generic\""
+  },
+  {
+    "Element": "col",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/tables.html#the-col-element",
+    "Represents": "Table column",
+    "Supported": "[none expected]",
+    "Notes": "No semantics conveyed"
+  },
+  {
+    "Element": "colgroup",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/tables.html#the-colgroup-element",
+    "Represents": "Group of columns in a table",
+    "Supported": "[none expected]",
+    "Notes": ""
+  },
+  {
+    "Element": "data",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-data-element",
+    "Represents": "Machine-readable equivalent",
+    "Supported": "[none expected]",
+    "Notes": "No semantics conveyed or expected as <data> has a role=\"generic\""
+  },
+  {
+    "Element": "datalist",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#the-datalist-element",
+    "Represents": "Container for options for combo\nbox control",
+    "Supported": "[yes]",
+    "Notes": ""
+  },
+  {
+    "Element": "dd",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-dd-element",
+    "Represents": "Content for corresponding dt element(s)",
+    "Supported": "[yes]",
+    "Notes": "Included as part of dt list item, user\nmust use arrow down for content to be\nannounced. If user navigates via list item navigation\n(Next Item in a List I) from dt then dd content will not be announced."
+  },
+  {
+    "Element": "del",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/edits.html#the-del-element",
+    "Represents": "A removal from the document",
+    "Supported": "[yes]",
+    "Notes": "Refer to: Scree Readers support for text level HTML semantics"
+  },
+  {
+    "Element": "details",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/interactive-elements.html#the-details-element",
+    "Represents": "Disclosure widget container",
+    "Supported": "[yes]",
+    "Notes": "Refer to summary element"
+  },
+  {
+    "Element": "dfn",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-dfn-element",
+    "Represents": "Defining instance of a term",
+    "Supported": "[no]",
+    "Notes": "No semantics conveyed Refer to JAWS tracker Issue 821"
+  },
+  {
+    "Element": "dialog",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/interactive-elements.html#the-dialog-element",
+    "Represents": "The dialog element represents a transitory part of an application, in the form of a small window (\"dialog box\")",
+    "Supported": "[yes]",
+    "Notes": "Note: Focus is contained within the dialog, but the browser address bar is included within the focus order. This is a browser implemented behaviour."
+  },
+  {
+    "Element": "div",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-div-element",
+    "Represents": "Generic flow container",
+    "Supported": "[yes]",
+    "Notes": "No semantics conveyed"
+  },
+  {
+    "Element": "dl",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-dl-element",
+    "Represents": "Association list consisting of zero or more name-value\ngroups",
+    "Supported": "[yes]",
+    "Notes": ""
+  },
+  {
+    "Element": "dt",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-dt-element",
+    "Represents": "Legend for corresponding dd element(s)",
+    "Supported": "[yes]",
+    "Notes": "Identified as a list item"
+  },
+  {
+    "Element": "em",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-em-element",
+    "Represents": "Stress emphasis",
+    "Supported": "[none expected]",
+    "Notes": "No semantics conveyed. Refer to: Scree Readers support for text level HTML semantics"
+  },
+  {
+    "Element": "embed",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/iframe-embed-object.htm#the-embed-element",
+    "Represents": "Plugins",
+    "Supported": "[question mark]",
+    "Notes": ""
+  },
+  {
+    "Element": "fieldset",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#the-fieldset-element",
+    "Represents": "Group of form controls",
+    "Supported": "[yes]",
+    "Notes": "Only when fieldset has an accessible name\nvia legend or other method."
+  },
+  {
+    "Element": "figcaption",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-figcaption-element",
+    "Represents": "Caption for figure",
+    "Supported": "[yes]",
+    "Notes": ""
+  },
+  {
+    "Element": "figure",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-figure-element",
+    "Represents": "Figure with optional caption",
+    "Supported": "[yes]",
+    "Notes": ""
+  },
+  {
+    "Element": "footer",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/sections.html#the-footer-element",
+    "Represents": "Footer for a page or section",
+    "Supported": "[yes]",
+    "Notes": ""
+  },
+  {
+    "Element": "form",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#the-form-element",
+    "Represents": "User-submittable form",
+    "Supported": "[yes]",
+    "Notes": "No semantics conveyed unless form has an accessible name, then exposed as a landmark."
+  },
+  {
+    "Element": "h1\n- h6",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/sections.html#the-h1-h2-h3-h4-h5-and-h6-elements",
+    "Represents": "Section heading",
+    "Supported": "[yes]",
+    "Notes": ""
+  },
+  {
+    "Element": "head",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/semantics.htmlthe-head-element",
+    "Represents": "Container for document metadata",
+    "Supported": "[none expected]",
+    "Notes": "No UI"
+  },
+  {
+    "Element": "header",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/sections.html#the-header-element",
+    "Represents": "Introductory or navigational aids for a page or section",
+    "Supported": "[yes]",
+    "Notes": ""
+  },
+  {
+    "Element": "hr",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-hr-element",
+    "Represents": "Thematic break",
+    "Supported": "[yes]",
+    "Notes": ""
+  },
+  {
+    "Element": "html",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/semantics.html#the-html-element",
+    "Represents": "Root element",
+    "Supported": "[none expected]",
+    "Notes": ""
+  },
+  {
+    "Element": "i",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-i-element",
+    "Represents": "Alternate voice",
+    "Supported": "[none expected]",
+    "Notes": "No semantics conveyed"
+  },
+  {
+    "Element": "iframe",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#the-iframe-element",
+    "Represents": "Nested\nbrowsing context",
+    "Supported": "[yes]",
+    "Notes": ""
+  },
+  {
+    "Element": "img",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/embedded-content.html#the-img-element",
+    "Represents": "Image",
+    "Supported": "[yes]",
+    "Notes": ""
+  },
+  {
+    "Element": "input\n[button]",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#button-state-typebutton",
+    "Represents": "Button control",
+    "Supported": "[yes]",
+    "Notes": ""
+  },
+  {
+    "Element": "input\n[checkbox]",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#checkbox-state-typecheckbox",
+    "Represents": "Checkbox control",
+    "Supported": "[yes]",
+    "Notes": ""
+  },
+  {
+    "Element": "input\n[color]",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#color-state-typecolor",
+    "Represents": "Colour picker control",
+    "Supported": "[yes]",
+    "Notes": "Identified as button by JAWS but not navigable using\nbutton navigation keys."
+  },
+  {
+    "Element": "input\n[date]",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#date-state-typedate",
+    "Represents": "date (day/month year) picker control",
+    "Supported": "[yes]",
+    "Notes": ""
+  },
+  {
+    "Element": "input\n[email]",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#email-state-typeemail",
+    "Represents": "text control for inputting email address",
+    "Supported": "[question mark]",
+    "Notes": "Announced as edit does not announce type of edit."
+  },
+  {
+    "Element": "input\n[file]",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#file-upload-state-typefile",
+    "Represents": "File chooser control",
+    "Supported": "[yes]",
+    "Notes": "As it's a composite control, it can be navigated to\nusing either button or edit commands."
+  },
+  {
+    "Element": "input\n[hidden]",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#hidden-state-typehidden",
+    "Represents": "hidden form control",
+    "Supported": "[yes]",
+    "Notes": "No UI"
+  },
+  {
+    "Element": "input\n[image]",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#image-button-state-typeimage",
+    "Represents": "Button control",
+    "Supported": "[yes]",
+    "Notes": ""
+  },
+  {
+    "Element": "input\n[number]",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#number-state-typenumber",
+    "Represents": "Spin box control",
+    "Supported": "[yes]",
+    "Notes": "Note: value in edit box announced as\nchanged increase/decreased using arrow keys.\nspin buttons included in button commands.\nList Buttons CTRL+INSERT+B\nNext Button B\nPrevious button B"
+  },
+  {
+    "Element": "input\n[password]",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#password-state-typepassword",
+    "Represents": "Text control for inputting a password",
+    "Supported": "[yes]",
+    "Notes": "Note: keyboard character input\nannounced as \"star\""
+  },
+  {
+    "Element": "input\n[range]",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#range-state-typerange",
+    "Represents": "slider control",
+    "Supported": "[yes]",
+    "Notes": "Note: When slider has no accessible\nname (label) or is disabled or readonly, it is\nidentified (incorrectly) as an edit box. - also depended\non how it is navigated to (arrow keys, tab key or\nedit/form control navigation keys).\nSlider value announced as it changes."
+  },
+  {
+    "Element": "input\n[radio]",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#radio-button-state-typeradio",
+    "Represents": "single choice from a set of options",
+    "Supported": "[yes]",
+    "Notes": ""
+  },
+  {
+    "Element": "input\n[reset]",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#reset-button-state-typereset",
+    "Represents": "Button control for resetting a form",
+    "Supported": "[yes]",
+    "Notes": ""
+  },
+  {
+    "Element": "input\n[search]",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#text-typetext-state-and-search-state-typesearch",
+    "Represents": "Text control for inputting search terms",
+    "Supported": "[question mark]",
+    "Notes": ""
+  },
+  {
+    "Element": "input\n[submit]",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#submit-button-state-typesubmit",
+    "Represents": "Button control for submitting a form",
+    "Supported": "[yes]",
+    "Notes": ""
+  },
+  {
+    "Element": "input\n[tel]",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#telephone-state-typetel",
+    "Represents": "text box control for inputting a phone number",
+    "Supported": "[yes]",
+    "Notes": ""
+  },
+  {
+    "Element": "input\n[text]",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#text-typetext-state-and-search-state-typesearch",
+    "Represents": "text box control",
+    "Supported": "[yes]",
+    "Notes": ""
+  },
+  {
+    "Element": "input\n[time]",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#time-state-typetime",
+    "Represents": "Control for setting a specific time.",
+    "Supported": "[yes]",
+    "Notes": ""
+  },
+  {
+    "Element": "input\n[url]",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#url-state-typeurl",
+    "Represents": "Text control for inputting a URL",
+    "Supported": "[yes]",
+    "Notes": ""
+  },
+  {
+    "Element": "ins",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/edits.html#the-ins-element",
+    "Represents": "An addition to the document",
+    "Supported": "[yes]",
+    "Notes": "Refer to: Scree Readers support for text level HTML semantics"
+  },
+  {
+    "Element": "kbd",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-kbd-element",
+    "Represents": "User input",
+    "Supported": "[no]",
+    "Notes": "No semantics conveyed"
+  },
+  {
+    "Element": "label",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#the-label-element",
+    "Represents": "Caption for a form control",
+    "Supported": "[yes]",
+    "Notes": ""
+  },
+  {
+    "Element": "legend",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#the-legend-element",
+    "Represents": "Caption for fieldset",
+    "Supported": "[yes]",
+    "Notes": "Refer to fieldset element"
+  },
+  {
+    "Element": "li",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-li-element",
+    "Represents": "List item",
+    "Supported": "[yes]",
+    "Notes": ""
+  },
+  {
+    "Element": "link",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/semantics.htmlthe-link-element",
+    "Represents": "Link metadata",
+    "Supported": "",
+    "Notes": "No UI"
+  },
+  {
+    "Element": "main",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-main-element",
+    "Represents": "Main content of a document",
+    "Supported": "[yes]",
+    "Notes": ""
+  },
+  {
+    "Element": "map",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/image-maps.html#the-map-element",
+    "Represents": "Image\nmap",
+    "Supported": "",
+    "Notes": "No UI"
+  },
+  {
+    "Element": "mark",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-mark-element",
+    "Represents": "Highlight",
+    "Supported": "[no]",
+    "Notes": "No semantics conveyed"
+  },
+  {
+    "Element": "meta",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/semantics.htmlthe-meta-element",
+    "Represents": "Text metadata",
+    "Supported": "",
+    "Notes": "No UI"
+  },
+  {
+    "Element": "meter",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#the-meter-element",
+    "Represents": "Gauge",
+    "Supported": "[question mark]",
+    "Notes": ""
+  },
+  {
+    "Element": "nav",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/sections.html#the-nav-element",
+    "Represents": "Section with navigational links",
+    "Supported": "[yes]",
+    "Notes": ""
+  },
+  {
+    "Element": "noscript",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#",
+    "Represents": "Fallback content for script",
+    "Supported": "",
+    "Notes": ""
+  },
+  {
+    "Element": "object",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#the-object-element",
+    "Represents": "Image, nested browsing context, or plugin",
+    "Supported": "[question mark]",
+    "Notes": ""
+  },
+  {
+    "Element": "ol",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-ol-element",
+    "Represents": "Ordered list",
+    "Supported": "[yes]",
+    "Notes": ""
+  },
+  {
+    "Element": "optgroup",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#the-optgroup-element",
+    "Represents": "Group of options in a list box",
+    "Supported": "[question mark]",
+    "Notes": ""
+  },
+  {
+    "Element": "option",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#the-option-element",
+    "Represents": "Option in a list box or combo box control",
+    "Supported": "[yes]",
+    "Notes": ""
+  },
+  {
+    "Element": "output",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#the-output-element",
+    "Represents": "Calculated output value",
+    "Supported": "[question mark]",
+    "Notes": "No semantics conveyed"
+  },
+  {
+    "Element": "p",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-p-element",
+    "Represents": "Paragraph",
+    "Supported": "[yes]",
+    "Notes": "No aural semantics, conveyed via navigation and\nparagraph list."
+  },
+  {
+    "Element": "param (obsolete)",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/obsolete.html#the-param-element",
+    "Represents": "Parameter for object",
+    "Supported": "[yes]",
+    "Notes": "No UI"
+  },
+  {
+    "Element": "picture",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/embedded-content.html#the-picture-element",
+    "Represents": "",
+    "Supported": "[yes]",
+    "Notes": "No UI"
+  },
+  {
+    "Element": "pre",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-pre-element",
+    "Represents": "Block of preformatted text",
+    "Supported": "[yes]",
+    "Notes": "No semantics conveyed"
+  },
+  {
+    "Element": "progress",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#the-progress-element",
+    "Represents": "Progress bar",
+    "Supported": "[yes]",
+    "Notes": "Progress bars are not inherently focusable. But if a\nprogress bar has a tabindex=\"0\", then the\naccessible name of the progress bar will be announced on\nfocus.\nProgress bars can be navigated to via P quick key. The accessible name of the progress will be\nannounced when focused in this manner."
+  },
+  {
+    "Element": "q",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-q-element",
+    "Represents": "Quotation",
+    "Supported": "[question mark]",
+    "Notes": ""
+  },
+  {
+    "Element": "rb",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-rb-element",
+    "Represents": "",
+    "Supported": "[question mark]",
+    "Notes": "No semantics conveyed"
+  },
+  {
+    "Element": "rp",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-rp-element",
+    "Represents": "",
+    "Supported": "[question mark]",
+    "Notes": "No semantics conveyed"
+  },
+  {
+    "Element": "rt",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-rt-element",
+    "Represents": "",
+    "Supported": "[question mark]",
+    "Notes": "No semantics conveyed"
+  },
+  {
+    "Element": "rtc",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-rtc-element",
+    "Represents": "",
+    "Supported": "[question mark]",
+    "Notes": "No semantics conveyed"
+  },
+  {
+    "Element": "ruby",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-ruby-element",
+    "Represents": "",
+    "Supported": "[question mark]",
+    "Notes": ""
+  },
+  {
+    "Element": "samp",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-samp-element",
+    "Represents": "Computer output",
+    "Supported": "[question mark]",
+    "Notes": "No semantics conveyed"
+  },
+  {
+    "Element": "s",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-s-element",
+    "Represents": "Inaccurate text",
+    "Supported": "",
+    "Notes": ""
+  },
+  {
+    "Element": "script",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/scripting.html#the-script-element",
+    "Represents": "Embedded script",
+    "Supported": "[yes]",
+    "Notes": "No UI"
+  },
+  {
+    "Element": "section",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/sections.html#the-section-element",
+    "Represents": "Generic document or application section",
+    "Supported": "[yes]",
+    "Notes": "No semantics conveyed unless the section has an\naccessible name."
+  },
+  {
+    "Element": "select",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/form-elements.html#the-select-element",
+    "Represents": "List box control",
+    "Supported": "[yes]",
+    "Notes": ""
+  },
+  {
+    "Element": "small",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-small-element",
+    "Represents": "Side comment",
+    "Supported": "[question mark]",
+    "Notes": "No semantics conveyed"
+  },
+  {
+    "Element": "source",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/embedded-content.html#the-source-element",
+    "Represents": "Media source for video or audio",
+    "Supported": "[yes]",
+    "Notes": "No UI"
+  },
+  {
+    "Element": "span",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-span-element",
+    "Represents": "Generic phrasing container",
+    "Supported": "[yes]",
+    "Notes": "No semantics conveyed"
+  },
+  {
+    "Element": "strong",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-strong-element",
+    "Represents": "Importance",
+    "Supported": "[question mark]",
+    "Notes": "No semantics conveyed"
+  },
+  {
+    "Element": "style",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/semantics.htmlthe-style-element",
+    "Represents": "Embedded styling information",
+    "Supported": "",
+    "Notes": "No UI"
+  },
+  {
+    "Element": "sub",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-sub-and-sup-elements",
+    "Represents": "Subscript",
+    "Supported": "[question mark]",
+    "Notes": "No semantics conveyed"
+  },
+  {
+    "Element": "summary",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/interactive-elements.html#the-summary-element",
+    "Represents": "disclosure widget control/label",
+    "Supported": "[yes]",
+    "Notes": "Article How\ndo you figure? includes JAWS support notes."
+  },
+  {
+    "Element": "sup",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-sub-and-sup-elements",
+    "Represents": "Superscript",
+    "Supported": "[question mark]",
+    "Notes": "No semantics conveyed"
+  },
+  {
+    "Element": "svg",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/embedded-content-other.html#svg-0",
+    "Represents": "",
+    "Supported": "[question mark]",
+    "Notes": ""
+  },
+  {
+    "Element": "table",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/tables.html#the-table-element",
+    "Represents": "Data table",
+    "Supported": "[yes]",
+    "Notes": ""
+  },
+  {
+    "Element": "tbody",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/tables.html#the-tbody-element",
+    "Represents": "Group of rows in a data table",
+    "Supported": "",
+    "Notes": "No semantics conveyed"
+  },
+  {
+    "Element": "td",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/tables.html#the-td-element",
+    "Represents": "Data cell in a data table",
+    "Supported": "[yes]",
+    "Notes": ""
+  },
+  {
+    "Element": "template",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/scripting.html#the-template-element",
+    "Represents": "Template",
+    "Supported": "",
+    "Notes": "No UI"
+  },
+  {
+    "Element": "textarea",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/rendering.html#the-textarea-element-2",
+    "Represents": "Multiline text field",
+    "Supported": "[yes]",
+    "Notes": "JAWS does not announce the content of a text area when\nnavigated to. If the textarea has text in\nit; \"Contains text\" is announced. Refer to issue\n42"
+  },
+  {
+    "Element": "tfoot",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/tables.html#the-tfoot-element",
+    "Represents": "Group of footer rows in a data table",
+    "Supported": "[question mark]",
+    "Notes": "No semantics conveyed"
+  },
+  {
+    "Element": "th",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/tables.html#the-th-element",
+    "Represents": "Header cell in a data table",
+    "Supported": "[yes]",
+    "Notes": ""
+  },
+  {
+    "Element": "thead",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/tables.html#the-thead-element",
+    "Represents": "Group of header rows in a data table",
+    "Supported": "[no]",
+    "Notes": "No semantics conveyed"
+  },
+  {
+    "Element": "time",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-time-element",
+    "Represents": "Machine-readable equivalent of date- or time-related\ndata",
+    "Supported": "[no]",
+    "Notes": "No semantics conveyed"
+  },
+  {
+    "Element": "title",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/semantics.htmlthe-title-element",
+    "Represents": "Document title",
+    "Supported": "[yes]",
+    "Notes": "Semantics conveyed via navigation and announcement key\nstroke."
+  },
+  {
+    "Element": "tr",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/tables.html#the-tr-element",
+    "Represents": "Data table row",
+    "Supported": "[yes]",
+    "Notes": ""
+  },
+  {
+    "Element": "track",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/media.html#the-track-element",
+    "Represents": "Timed text track",
+    "Supported": "[question mark]",
+    "Notes": ""
+  },
+  {
+    "Element": "u",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-u-element",
+    "Represents": "Keywords",
+    "Supported": "[no]",
+    "Notes": "No semantics conveyed"
+  },
+  {
+    "Element": "ul",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-ul-element",
+    "Represents": "Unordered List",
+    "Supported": "[yes]",
+    "Notes": ""
+  },
+  {
+    "Element": "var",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-var-element",
+    "Represents": "Variable",
+    "Supported": "[no]",
+    "Notes": "No semantics conveyed"
+  },
+  {
+    "Element": "video",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/media.html#the-video-element",
+    "Represents": "Video Player",
+    "Supported": "[question mark]",
+    "Notes": ""
+  },
+  {
+    "Element": "wbr",
+    "Element link 1": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-wbr-element",
+    "Represents": "Line breaking opportunity",
+    "Supported": "[question mark]",
+    "Notes": "No UI"
+  },
+  {
+    "Element": "Element",
+    "Represents": "Represents",
+    "Supported": "Semantics Conveyed",
+    "Notes": "Notes"
+  }
+]

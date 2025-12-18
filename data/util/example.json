@@ -1,0 +1,30 @@
+[
+  {"Element"=>"a",
+  "Element link 1"=>"https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element",
+  "Represents"=>"With href: a hyperlink\nWith no href: an\nanchor",
+  "Notes"=>
+  "With href:\nLink role announced before link text when cursored to,\nafter via tab.\nBy Default, JAWS speaks the on screen text of a\nlink, but you can set JAWS to instead speak Title\ntext, assigned by the page author within the HTML\ncode. Title text normally provides supplemental\ninformation about the link.\nBy default, JAWS announces the link type, but you\ncan disable this, so JAWS announces same page links,\nsend mail links, and FTP links as \"link,\" or \"Visited\nLink.\"\nJAWS announces the type of link as follows:\nLink: This indicates a link that\nhas not been visited.\nVisited Link: This indicates a link\nthat has been visited. This is determined by your\nbrowser history, not by which links have been selected\non the current Web page.\nSame Page Link: This indicates a\nlink that moves you to another location on the same\npage.\nSend Mail Link: This indicates a\nlink that opens a new e-mail message using your\ndefault e-mail program.\nFTP Link: This indicates a link\nthat points to a FTP (File Transfer Protocol) server.\nWith no href:\nNo semantics conveyed or expected as <a> has a role=\"generic\""},
+
+  {"Element"=>"abbr",
+    "Element link 1"=>"https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-abbr-element",
+    "Represents"=>"An abbreviation",
+    "Notes"=>
+    "No semantics conveyed by default\nNote that expansions are not announced by default and\nthat expansions provided using the title attribute are not available to keyboard only users.\nRefer to Using\nthe HTML title attribute."},
+
+  {"Element"=>"address",
+    "Element link 1"=>"https://html.spec.whatwg.org/multipage/grouping-content.html#the-address-element",
+    "Represents"=>"Contact information for a page or article element",
+    "Notes"=>"With accessible name address is announced\nas a group Group - accessible name,\nstart/end.",
+    "tests"=>[
+          {"name"=>"address no name", "status"=>"PASS"},
+          {"name"=>"address aria-label", "status"=>"PASS"},
+          {"name"=>"address aria-labelledby", "status"=>"PASS"},
+          {"name"=>"address title", "status"=>"PASS"},
+          {"name"=>"address aria-labelledby vs aria-label vs title", "status"=>"PASS"},
+          {"name"=>"address aria-labelledby vs aria-label", "status"=>"PASS"},
+          {"name"=>"address aria-labelledby vs title", "status"=>"PASS"},
+          {"name"=>"address aria-label vs title", "status"=>"PASS"},
+          {"total"=>8, "pass"=>8, "fail"=>0},
+    ]
+  }
+]
