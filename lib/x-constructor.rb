@@ -2,7 +2,7 @@
 require 'json'
 require 'pry'
 
-class Constructor
+class XConstructor
 
   CHROME_PATH = File.expand_path(
     '../data/util/browsers/chrome.json',
@@ -72,12 +72,12 @@ class Constructor
 
       end
     end
-    binding.pry
+    # binding.pry
     puts elements_json
   end
 end
 
-a = Constructor.get_html_aam_browser_results
-b = Constructor.match_test_to_feature(a)
-c = Constructor.calculate_pass_rate(b)
-d = Constructor.ex(c)
+# a = X-constructor.get_html_aam_browser_results
+# b = X-constructor.match_test_to_feature(a)
+# c = X-constructor.calculate_pass_rate(b)
+# d = X-constructor.ex(c)
