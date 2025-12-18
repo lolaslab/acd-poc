@@ -16,6 +16,8 @@ keys = [
   "Represents"
 ]
 
+elements_list = []
+
 elements.each do |elem_obj|
   elem_obj.delete_if do |k, v|
     !keys.any?(k)

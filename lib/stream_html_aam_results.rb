@@ -20,7 +20,15 @@ class StreamHtmlAamResults
         next unless labelled_tests.include?(test_obj[:test]) &&
           test_obj[:test].include?("html-aam") && !test_obj[:test].include?("tentative")
           test_obj[:subtests]&.map { |s|
+            # This is trying to infer the element name from the subtest name but
+            # there are inconcistencies, especially where the subtest name uses
+            # hypens to delinate specifics
+            name = s[:name].split.first
+            if name.start_with?("el-")
+              name.delete_prefix!("el-")
+            end
             filtered_results << {
+              el_name: name,
               name: s[:name],
               status: s[:status],
               parent_test: test_obj[:test],
