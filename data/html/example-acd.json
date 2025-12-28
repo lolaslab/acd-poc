@@ -1,0 +1,32 @@
+{
+  "html": {
+    "elements": {
+      "del": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/HTML/Elements/del",
+          "spec_url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-del-element",
+          "tags": [
+            "web-features:del"
+          ],
+          "support": {
+            "safari/voiceover_macos": [
+              {
+                "version_added": "18/1",
+                "failures": [
+                  {
+                    "category": "bad-context",
+                    "description": "As of Safari 18, VoiceOver does not announce text preceding `<del>` when using read-all.",
+                    "bug": "https://bugs.webkit.org/show_bug.cgi?id=286267"
+                  }
+                ]
+              },
+              {
+                "version_added": "5.1/1"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

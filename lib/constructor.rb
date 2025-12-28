@@ -25,7 +25,10 @@ class Constructor
       sr_element_obj.each do |sr_data|
         element = sr_data[:Element]
         # find the element object per element in the browser object, skip if there are no tests for this element
-        next unless browser_results[element]
+        if browser_results[element].nil?
+          File.write("data/html/missing-elements.txt", "#{element} \n", mode: 'a')
+          next
+        end
         browser_element = browser_results[element]
         # check the screen reader object "supported" key
         #   if "yes" then the screen reader supports the object
