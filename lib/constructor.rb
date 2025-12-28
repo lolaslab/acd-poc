@@ -32,13 +32,13 @@ class Constructor
         browser_element = browser_results[element]
         # check the screen reader object "supported" key
         #   if "yes" then the screen reader supports the object
-        if sr_data[:Support] == "[yes]"
+        if sr_data[:Supported] == "[yes]"
           sr_support = "1"
-        elsif sr_data[:Support] == "[no]"
+        elsif sr_data[:Supported] == "[no]"
           sr_support = "0"
         else
           sr_support = "2"
-          notes = sr_data[:Support]
+          notes = sr_data[:Supported]
         end
         # check the stats object in the browser object
         browser_element_stats = browser_element[-1]["stats"]
