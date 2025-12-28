@@ -4,7 +4,10 @@
       "aside": {
         "__compat": {
           "desc": "Sidebar for tangentially related content",
-          "spec_url": "https://html.spec.whatwg.org/multipage/sections.html#the-aside-element"
+          "spec_url": "https://html.spec.whatwg.org/multipage/sections.html#the-aside-element",
+          "support": {
+            "chrome/jaws": "0/1"
+          }
         }
       }
     }

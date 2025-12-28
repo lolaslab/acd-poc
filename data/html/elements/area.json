@@ -4,7 +4,10 @@
       "area": {
         "__compat": {
           "desc": "Hyperlink or dead area on an image map",
-          "spec_url": "https://html.spec.whatwg.org/multipage/image-maps.html#the-area-element"
+          "spec_url": "https://html.spec.whatwg.org/multipage/image-maps.html#the-area-element",
+          "support": {
+            "chrome/jaws": "143.0.7499.169/1"
+          }
         }
       }
     }

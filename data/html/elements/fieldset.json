@@ -4,7 +4,10 @@
       "fieldset": {
         "__compat": {
           "desc": "Group of form controls",
-          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-fieldset-element"
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-fieldset-element",
+          "support": {
+            "chrome/jaws": "143.0.7499.169/1"
+          }
         }
       }
     }

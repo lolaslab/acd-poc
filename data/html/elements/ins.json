@@ -4,7 +4,10 @@
       "ins": {
         "__compat": {
           "desc": "An addition to the document",
-          "spec_url": "https://html.spec.whatwg.org/multipage/edits.html#the-ins-element"
+          "spec_url": "https://html.spec.whatwg.org/multipage/edits.html#the-ins-element",
+          "support": {
+            "chrome/jaws": "143.0.7499.169/1"
+          }
         }
       }
     }

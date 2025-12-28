@@ -4,7 +4,11 @@
       "a": {
         "__compat": {
           "desc": "With href: a hyperlink\nWith no href: an\nanchor",
-          "spec_url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element"
+          "spec_url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element",
+          "support": {
+            "chrome/jaws": "143.0.7499.169/2"
+          },
+          "notes": "With href:\n[yes]\nWith no href:\n[none expected]"
         }
       }
     }

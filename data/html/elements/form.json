@@ -4,7 +4,10 @@
       "form": {
         "__compat": {
           "desc": "User-submittable form",
-          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-form-element"
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-form-element",
+          "support": {
+            "chrome/jaws": "143.0.7499.169/1"
+          }
         }
       }
     }

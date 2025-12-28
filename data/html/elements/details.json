@@ -4,7 +4,10 @@
       "details": {
         "__compat": {
           "desc": "Disclosure widget container",
-          "spec_url": "https://html.spec.whatwg.org/multipage/interactive-elements.html#the-details-element"
+          "spec_url": "https://html.spec.whatwg.org/multipage/interactive-elements.html#the-details-element",
+          "support": {
+            "chrome/jaws": "143.0.7499.169/1"
+          }
         }
       }
     }

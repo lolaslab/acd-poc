@@ -4,7 +4,10 @@
       "dd": {
         "__compat": {
           "desc": "Content for corresponding dt element(s)",
-          "spec_url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-dd-element"
+          "spec_url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-dd-element",
+          "support": {
+            "chrome/jaws": "143.0.7499.169/1"
+          }
         }
       }
     }

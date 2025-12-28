@@ -4,7 +4,10 @@
       "p": {
         "__compat": {
           "desc": "Paragraph",
-          "spec_url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-p-element"
+          "spec_url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-p-element",
+          "support": {
+            "chrome/jaws": "143.0.7499.169/1"
+          }
         }
       }
     }

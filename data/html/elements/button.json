@@ -4,7 +4,10 @@
       "button": {
         "__compat": {
           "desc": "Button control",
-          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-button-element"
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-button-element",
+          "support": {
+            "chrome/jaws": "143.0.7499.169/1"
+          }
         }
       }
     }

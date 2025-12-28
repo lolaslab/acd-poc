@@ -4,7 +4,11 @@
       "bdi": {
         "__compat": {
           "desc": "Text directionality isolation",
-          "spec_url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-bdi-element"
+          "spec_url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-bdi-element",
+          "support": {
+            "chrome/jaws": "143.0.7499.169/2"
+          },
+          "notes": "[none expected]"
         }
       }
     }

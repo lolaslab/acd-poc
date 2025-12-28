@@ -4,7 +4,10 @@
       "div": {
         "__compat": {
           "desc": "Generic flow container",
-          "spec_url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-div-element"
+          "spec_url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-div-element",
+          "support": {
+            "chrome/jaws": "143.0.7499.169/1"
+          }
         }
       }
     }

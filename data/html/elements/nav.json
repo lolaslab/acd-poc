@@ -4,7 +4,10 @@
       "nav": {
         "__compat": {
           "desc": "Section with navigational links",
-          "spec_url": "https://html.spec.whatwg.org/multipage/sections.html#the-nav-element"
+          "spec_url": "https://html.spec.whatwg.org/multipage/sections.html#the-nav-element",
+          "support": {
+            "chrome/jaws": "143.0.7499.169/1"
+          }
         }
       }
     }

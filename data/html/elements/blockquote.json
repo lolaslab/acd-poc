@@ -4,7 +4,10 @@
       "blockquote": {
         "__compat": {
           "desc": "A section quoted from another source",
-          "spec_url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-blockquote-element"
+          "spec_url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-blockquote-element",
+          "support": {
+            "chrome/jaws": "143.0.7499.169/1"
+          }
         }
       }
     }

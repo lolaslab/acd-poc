@@ -4,7 +4,10 @@
       "pre": {
         "__compat": {
           "desc": "Block of preformatted text",
-          "spec_url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-pre-element"
+          "spec_url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-pre-element",
+          "support": {
+            "chrome/jaws": "143.0.7499.169/1"
+          }
         }
       }
     }

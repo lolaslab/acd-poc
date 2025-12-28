@@ -4,7 +4,10 @@
       "hr": {
         "__compat": {
           "desc": "Thematic break",
-          "spec_url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-hr-element"
+          "spec_url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-hr-element",
+          "support": {
+            "chrome/jaws": "143.0.7499.169/1"
+          }
         }
       }
     }

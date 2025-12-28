@@ -4,7 +4,11 @@
       "em": {
         "__compat": {
           "desc": "Stress emphasis",
-          "spec_url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-em-element"
+          "spec_url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-em-element",
+          "support": {
+            "chrome/jaws": "143.0.7499.169/2"
+          },
+          "notes": "[none expected]"
         }
       }
     }

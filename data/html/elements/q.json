@@ -4,7 +4,11 @@
       "q": {
         "__compat": {
           "desc": "Quotation",
-          "spec_url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-q-element"
+          "spec_url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-q-element",
+          "support": {
+            "chrome/jaws": "143.0.7499.169/2"
+          },
+          "notes": "[question mark]"
         }
       }
     }

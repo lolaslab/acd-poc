@@ -4,7 +4,11 @@
       "output": {
         "__compat": {
           "desc": "Calculated output value",
-          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-output-element"
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-output-element",
+          "support": {
+            "chrome/jaws": "143.0.7499.169/2"
+          },
+          "notes": "[question mark]"
         }
       }
     }

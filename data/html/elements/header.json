@@ -4,7 +4,10 @@
       "header": {
         "__compat": {
           "desc": "Introductory or navigational aids for a page or section",
-          "spec_url": "https://html.spec.whatwg.org/multipage/sections.html#the-header-element"
+          "spec_url": "https://html.spec.whatwg.org/multipage/sections.html#the-header-element",
+          "support": {
+            "chrome/jaws": "143.0.7499.169/1"
+          }
         }
       }
     }

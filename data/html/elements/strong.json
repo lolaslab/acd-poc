@@ -4,7 +4,11 @@
       "strong": {
         "__compat": {
           "desc": "Importance",
-          "spec_url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-strong-element"
+          "spec_url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-strong-element",
+          "support": {
+            "chrome/jaws": "143.0.7499.169/2"
+          },
+          "notes": "[question mark]"
         }
       }
     }

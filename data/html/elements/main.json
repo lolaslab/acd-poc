@@ -4,7 +4,10 @@
       "main": {
         "__compat": {
           "desc": "Main content of a document",
-          "spec_url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-main-element"
+          "spec_url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-main-element",
+          "support": {
+            "chrome/jaws": "143.0.7499.169/1"
+          }
         }
       }
     }

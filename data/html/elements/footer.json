@@ -4,7 +4,10 @@
       "footer": {
         "__compat": {
           "desc": "Footer for a page or section",
-          "spec_url": "https://html.spec.whatwg.org/multipage/sections.html#the-footer-element"
+          "spec_url": "https://html.spec.whatwg.org/multipage/sections.html#the-footer-element",
+          "support": {
+            "chrome/jaws": "143.0.7499.169/1"
+          }
         }
       }
     }

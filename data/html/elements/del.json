@@ -4,7 +4,10 @@
       "del": {
         "__compat": {
           "desc": "A removal from the document",
-          "spec_url": "https://html.spec.whatwg.org/multipage/edits.html#the-del-element"
+          "spec_url": "https://html.spec.whatwg.org/multipage/edits.html#the-del-element",
+          "support": {
+            "chrome/jaws": "143.0.7499.169/1"
+          }
         }
       }
     }

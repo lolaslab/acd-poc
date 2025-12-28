@@ -4,7 +4,11 @@
       "sup": {
         "__compat": {
           "desc": "Superscript",
-          "spec_url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-sub-and-sup-elements"
+          "spec_url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-sub-and-sup-elements",
+          "support": {
+            "chrome/jaws": "143.0.7499.169/2"
+          },
+          "notes": "[question mark]"
         }
       }
     }

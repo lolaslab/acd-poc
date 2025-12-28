@@ -4,7 +4,10 @@
       "mark": {
         "__compat": {
           "desc": "Highlight",
-          "spec_url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-mark-element"
+          "spec_url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-mark-element",
+          "support": {
+            "chrome/jaws": "143.0.7499.169/0"
+          }
         }
       }
     }

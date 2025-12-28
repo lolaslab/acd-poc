@@ -4,7 +4,10 @@
       "option": {
         "__compat": {
           "desc": "Option in a list box or combo box control",
-          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-option-element"
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-option-element",
+          "support": {
+            "chrome/jaws": "143.0.7499.169/1"
+          }
         }
       }
     }

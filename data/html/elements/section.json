@@ -4,7 +4,10 @@
       "section": {
         "__compat": {
           "desc": "Generic document or application section",
-          "spec_url": "https://html.spec.whatwg.org/multipage/sections.html#the-section-element"
+          "spec_url": "https://html.spec.whatwg.org/multipage/sections.html#the-section-element",
+          "support": {
+            "chrome/jaws": "0/1"
+          }
         }
       }
     }
