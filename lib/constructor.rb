@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 require 'json'
-require 'pry'
+require 'pry-byebug'
+require 'yajl'
 
 class Constructor
   include Enumerable
@@ -10,33 +11,25 @@ class Constructor
   )
   def init(directory=BROWSERS_PATH)
     @directory = directory
-    binding.pry
     Dir.glob(File.join(@directory, "*.json")).each do |file|
-      data = JSON.parse(File.read(file))
-      if data["results"]
-        # binding.pry
-        data["results"].each do |subtest_obj|
-          element_file = File.expand_path("../data/html/elements/#{subtest_obj["el-name"]}.json", __dir__)
-          element_file_json = File.read(element_file)
-        #   TODO: Calculate support data
-        # TODO: Update the element json file with the support data
+      File.open(file, 'r') do |io|
+        parser = Yajl::Parser.new(symbolize_keys: true)
+        parser.on_parse_complete = lambda do |json|
+          if json["results"]
+            # binding.pry
+            json["results"].each do |subtest_obj|
+              element_file = File.expand_path("../data/html/elements/#{subtest_obj.first}.json", __dir__)
+              File.open(element_file, 'r') do |element_io|
+                element_data = Yajl::Parser.parse(element_io)
+                # binding.pry
+                # TODO: Update the element json file with the support data
+              end
+            end
+          end
         end
       end
     end
   end
 end
 
-#   def iter
-#     Dir.glob(File.join(@directory, "*.json")).each do |file|
-#       data = JSON.parse(File.read(file))
-#       if data.is_a?(Array)
-#         binding.pry
-#         # data.each { |item| yield item }
-#       else
-#         yield data
-#       end
-#     end
-#   end
-# end
-
-Constructor.new.init
+puts Constructor.new.init
