@@ -6,7 +6,11 @@
           "desc": "Figure with optional caption",
           "spec_url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-figure-element",
           "support": {
-            "chrome/jaws": "143.0.7499.169/1"
+            "chrome/jaws": [
+              {
+                "version_added": "143.0.7499.169/1"
+              }
+            ]
           }
         }
       }

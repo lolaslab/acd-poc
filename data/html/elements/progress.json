@@ -6,7 +6,11 @@
           "desc": "Progress bar",
           "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-progress-element",
           "support": {
-            "chrome/jaws": "143.0.7499.169/1"
+            "chrome/jaws": [
+              {
+                "version_added": "143.0.7499.169/1"
+              }
+            ]
           }
         }
       }

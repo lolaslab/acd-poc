@@ -6,7 +6,11 @@
           "desc": "Generic phrasing container",
           "spec_url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-span-element",
           "support": {
-            "chrome/jaws": "143.0.7499.169/1"
+            "chrome/jaws": [
+              {
+                "version_added": "143.0.7499.169/1"
+              }
+            ]
           }
         }
       }

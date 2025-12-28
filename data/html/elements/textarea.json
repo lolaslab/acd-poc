@@ -6,7 +6,11 @@
           "desc": "Multiline text field",
           "spec_url": "https://html.spec.whatwg.org/multipage/rendering.html#the-textarea-element-2",
           "support": {
-            "chrome/jaws": "143.0.7499.169/1"
+            "chrome/jaws": [
+              {
+                "version_added": "143.0.7499.169/1"
+              }
+            ]
           }
         }
       }

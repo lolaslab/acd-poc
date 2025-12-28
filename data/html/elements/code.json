@@ -6,9 +6,13 @@
           "desc": "Computer code",
           "spec_url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-code-element",
           "support": {
-            "chrome/jaws": "143.0.7499.169/2"
-          },
-          "notes": "[none expected]"
+            "chrome/jaws": [
+              {
+                "version_added": "143.0.7499.169/2",
+                "notes": "[none expected]"
+              }
+            ]
+          }
         }
       }
     }

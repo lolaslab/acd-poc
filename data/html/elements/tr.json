@@ -6,7 +6,11 @@
           "desc": "Data table row",
           "spec_url": "https://html.spec.whatwg.org/multipage/tables.html#the-tr-element",
           "support": {
-            "chrome/jaws": "143.0.7499.169/1"
+            "chrome/jaws": [
+              {
+                "version_added": "143.0.7499.169/1"
+              }
+            ]
           }
         }
       }

@@ -6,7 +6,11 @@
           "desc": "Self-contained syndicatable or reusable composition",
           "spec_url": "https://html.spec.whatwg.org/multipage/sections.html#the-article-element",
           "support": {
-            "chrome/jaws": "143.0.7499.169/1"
+            "chrome/jaws": [
+              {
+                "version_added": "143.0.7499.169/1"
+              }
+            ]
           }
         }
       }

@@ -6,9 +6,13 @@
           "desc": "Machine-readable equivalent",
           "spec_url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-data-element",
           "support": {
-            "chrome/jaws": "143.0.7499.169/2"
-          },
-          "notes": "[none expected]"
+            "chrome/jaws": [
+              {
+                "version_added": "143.0.7499.169/2",
+                "notes": "[none expected]"
+              }
+            ]
+          }
         }
       }
     }

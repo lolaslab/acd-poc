@@ -6,7 +6,12 @@
           "desc": "Generic document or application section",
           "spec_url": "https://html.spec.whatwg.org/multipage/sections.html#the-section-element",
           "support": {
-            "chrome/jaws": "0/1"
+            "chrome/jaws": [
+              {
+                "version_added": "0/1",
+                "notes": "\nThere are 1 failures out of 16 WPT subtests."
+              }
+            ]
           }
         }
       }

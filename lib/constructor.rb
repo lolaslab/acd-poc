@@ -47,6 +47,12 @@ class Constructor
           b_support = browser_version
         else
           b_support = 0
+          fail_string = "\nThere are #{browser_element_stats["fails"]} failures out of #{browser_element_stats["total_subtests"]} WPT subtests."
+          if notes
+            notes << fail_string
+          else
+            notes = fail_string
+          end
         end
         # find the element file per element in the screen reader object
         element_acd_filename = "data/html/elements/#{element}.json"
@@ -57,10 +63,12 @@ class Constructor
           element_acd_obj = JSON.parse(File.read(element_acd_filename))
           compat_node = element_acd_obj.dig("html", "elements", element, "__compat")
           compat_node["support"] = {
-            "chrome/jaws" => "#{b_support}/#{sr_support}"
+            "chrome/jaws" => [
+              "version_added" => "#{b_support}/#{sr_support}"
+            ]
           }
           if notes
-            compat_node["notes"] = notes
+            compat_node["support"]["chrome/jaws"][0].merge!({"notes" => notes})
           end
           File.write(element_acd_filename, JSON.pretty_generate(element_acd_obj))
         end

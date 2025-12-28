@@ -6,7 +6,12 @@
           "desc": "Image",
           "spec_url": "https://html.spec.whatwg.org/multipage/embedded-content.html#the-img-element",
           "support": {
-            "chrome/jaws": "0/1"
+            "chrome/jaws": [
+              {
+                "version_added": "0/1",
+                "notes": "\nThere are 3 failures out of 10 WPT subtests."
+              }
+            ]
           }
         }
       }
