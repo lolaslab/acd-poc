@@ -11,12 +11,17 @@ class StreamHtmlAamResults
   # @param labelled_tests is a Set of filtered WPT tests
   def self.stream_and_filter(run, labelled_tests)
     uri = URI(run['raw_results_url'])
+    # TODO: refactor to actually implement json streaming
     json_io = Net::HTTP.get(uri)
     filtered_results = {}
 
+    # Init parser
     parser = Yajl::Parser.new(symbolize_keys: true)
 
+    # Populate filtered_results and calculate stats when the parser
+    # has finished parsing.
     parser.on_parse_complete = lambda do |json|
+      binding.pry
       json[:results].each do |test_obj|
 
         # Exclude tests we don't need
@@ -74,8 +79,9 @@ class StreamHtmlAamResults
       end
     end
 
-    # Build browser json
+    # Parse json; without this the callback above won't run!
     parser.parse(json_io)
+
     {
       browser: run['browser_name'],
       version: run['browser_version'],
