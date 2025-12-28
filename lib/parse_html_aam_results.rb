@@ -6,12 +6,12 @@ require 'stringio'
 require 'yajl'
 require 'pry-byebug'
 
-class StreamHtmlAamResults
+class ParseHtmlAamResults
   # @param run is a WPT test run for a specific browser
   # @param labelled_tests is a Set of filtered WPT tests
-  def self.stream_and_filter(run, labelled_tests)
+  def self.local_parse(run, labelled_tests)
     uri = URI(run['raw_results_url'])
-    # TODO: refactor to actually implement json streaming
+    # TODO: refactor to actually implement json streaming when moved to Node
     json_io = Net::HTTP.get(uri)
     filtered_results = {}
 
@@ -21,9 +21,7 @@ class StreamHtmlAamResults
     # Populate filtered_results and calculate stats when the parser
     # has finished parsing.
     parser.on_parse_complete = lambda do |json|
-      binding.pry
       json[:results].each do |test_obj|
-
         # Exclude tests we don't need
         next unless labelled_tests.include?(test_obj[:test]) &&
           test_obj[:test].include?("html-aam") && !test_obj[:test].include?("tentative")
@@ -72,10 +70,11 @@ class StreamHtmlAamResults
 
 
         filtered_results[element_name] << {
-          passes: passes,
-          fails: fails,
-          total_subtests: subtests.count
-        }
+          stats: {
+            passes: passes,
+            fails: fails,
+            total_subtests: subtests.count
+          }}
       end
     end
 
