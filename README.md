@@ -98,7 +98,7 @@ I've written this in Ruby because I can be quick in Ruby. The final version of t
 streaming to read and filter the WPT results.
 
 ### HTML-AAM
-Currently only showing data for HTML-AAM elements in Jaws.
+Currently only showing data for HTML-AAM elements in Jaws and Chrome.
 
 ## Questions
 1. How many WPT need to pass for an element to be supported? Should we be looking for specific sub tests passing instead
