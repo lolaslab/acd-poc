@@ -1,0 +1,9 @@
+{
+  "name": "acd-poc",
+  "version": "1.0.0",
+  "description": "Accessibility Compatibility Data - proof of concept",
+  "type": "commonjs",
+  "dependencies": {
+    "stream-json": "^1.9.1"
+  }
+}
